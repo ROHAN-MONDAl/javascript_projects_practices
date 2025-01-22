@@ -1,36 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unit Converter</title>
+    <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <div class="converter-container">
-        <h1>Unit Converter</h1>
-        <div class="converter-box">
-            <div class="input-group">
-                <label for="from-unit">From</label>
-                <select id="from-unit">
-                    <option value="meters">Meters</option>
-                    <option value="kilometers">Kilometers</option>
-                    <option value="miles">Miles</option>
-                </select>
-                <input type="number" id="from-value" placeholder="Enter value">
+    <div class="main">
+        <div class="overlay">
+            <div class="title">We are coming soon</div>
+            <div class="title" id="end-date">12 December 2024 12:00 Am</div>
+            <div class="col">
+                <div>
+                    <input type="text" readonly value="0">
+                    <br/>
+                    <label for="">Days</label>
+                </div>
+                <div>
+                    <input type="text" readonly value="0">
+                    <br/>
+                    <label for="">Hours</label>
+                </div>
+                <div>
+                    <input type="text" readonly value="0">
+                    <br/>
+                    <label for="">Minutes</label>
+                </div>
+                <div>
+                    <input type="text" readonly value="0">
+                    <br/>
+                    <label for="">Seconds</label>
+                </div>
             </div>
-            <div class="input-group">
-                <label for="to-unit">To</label>
-                <select id="to-unit">
-                    <option value="meters">Meters</option>
-                    <option value="kilometers">Kilometers</option>
-                    <option value="miles">Miles</option>
-                </select>
-                <input type="text" id="to-value" placeholder="Result" disabled>
-            </div>
-            <button id="convert-btn">Convert</button>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script>
+
+const enddate ="12 December 2024 12:00 AM"
+
+
+
+    </script>
 </body>
+
 </html>
